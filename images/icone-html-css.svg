@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90">
+  <!-- Outer Browser Card -->
+  <rect x="5" y="10" width="90" height="80" rx="8" fill="#ebeeec" stroke="#3b3b4f" stroke-width="2.5"/>
+  <!-- Header Bar -->
+  <line x1="5" y1="25" x2="95" y2="25" stroke="#3b3b4f" stroke-width="2.5"/>
+  <!-- Header dots -->
+  <circle cx="13" cy="18" r="2" fill="#3b3b4f"/>
+  <circle cx="19" cy="18" r="2" fill="#3b3b4f"/>
+  <circle cx="25" cy="18" r="2" fill="#3b3b4f"/>
+  <!-- Left Column -->
+  <rect x="10" y="30" width="30" height="54" rx="3" fill="#8c98d4" stroke="#3b3b4f" stroke-width="2"/>
+  <text x="25" y="62" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+  <!-- Right Column Top Box (Image Placeholder) -->
+  <rect x="45" y="30" width="45" height="28" rx="3" fill="#ffffff" stroke="#3b3b4f" stroke-width="2"/>
+  <line x1="45" y1="30" x2="90" y2="58" stroke="#d4ab28" stroke-width="2"/>
+  <line x1="90" y1="30" x2="45" y2="58" stroke="#d4ab28" stroke-width="2"/>
+  <!-- Right Column Bottom Box -->
+  <rect x="45" y="63" width="45" height="21" rx="3" fill="#ffffff" stroke="#3b3b4f" stroke-width="2"/>
+  <line x1="50" y1="69" x2="75" y2="69" stroke="#3b3b4f" stroke-width="2"/>
+  <line x1="50" y1="74" x2="85" y2="74" stroke="#3b3b4f" stroke-width="1.5"/>
+  <line x1="50" y1="79" x2="70" y2="79" stroke="#3b3b4f" stroke-width="1.5"/>
+</svg>

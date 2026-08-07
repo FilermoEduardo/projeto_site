@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 85" width="250" height="62">
+  <!-- Speech bubble play icon background -->
+  <path d="M 38 10 C 58 10, 72 22, 72 38 C 72 54, 52 74, 34 74 C 16 74, 6 60, 6 44 C 6 26, 18 10, 38 10 Z" fill="#0046FF"/>
+  <!-- Play triangle -->
+  <polygon points="30,28 48,39 30,50" fill="#FFFFFF" />
+  <!-- Text "curso em vídeo" -->
+  <text x="84" y="38" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="34" fill="#0046FF" letter-spacing="-1">curso</text>
+  <text x="84" y="66" font-family="'Poppins', Arial, sans-serif" font-weight="900" font-size="30" fill="#2d0859" letter-spacing="-1">em vídeo</text>
+</svg>

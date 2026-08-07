@@ -4,25 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso em video</title>
+    <title>Cursos Grátis - Curso em Vídeo</title>
+    <!-- Fonte Google Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main>
-        <header>
-            <h1>Cursos Gratis</h1>
+    <main class="card-container">
+        <header class="card-header">
+            <h1 class="main-title">Cursos Grátis</h1>
+            <div class="logo-wrapper">
+                <img src="images/logo-cursoemvideo.svg" alt="Logo Curso em Vídeo" class="logo-img">
+            </div>
         </header>
-        <article>
-            <h2>Curso de HTML5 com Css3</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium placeat, assumenda, exercitationem odit vel ad aliquam voluptatem provident quos, velit delectus. Quibusdam ipsum quisquam provident minima quam, quis amet repudiandae.</p>
-        </article>
-        <article>
-            <h2>Curso hmtl 5</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sed consequatur modi exercitationem tempora nobis commodi esse expedita, sapiente voluptatum, fuga praesentium, debitis nulla! Dolorem nobis error mollitia tempore placeat.</p>
-        </article>
-    </main>
 
+        <section class="courses-list">
+            <article class="course-card">
+                <h2 class="course-title">Curso de HTML5 com CSS3</h2>
+                <div class="course-content">
+                    <p class="course-description">
+                        A HTML é uma linguagem de marcação para a criação de sites. Atualmente na versão 5, ela usa a semântica dos elementos para criar o conteúdo de uma página Web. Com as CSS, criamos as configurações visuais que um site vai ter.
+                    </p>
+                    <div class="course-icon">
+                        <img src="images/icone-html-css.svg" alt="Ícone HTML5 e CSS3">
+                    </div>
+                </div>
+                <a href="#" class="course-link">Acesse o curso de HTML5</a>
+            </article>
+
+            <article class="course-card">
+                <h2 class="course-title">Curso de JavaScript</h2>
+                <div class="course-content">
+                    <p class="course-description">
+                        JavaScript é uma linguagem de script criada para aumentar a interatividade entre um site e seus visitantes. Os códigos em JS são executados dentro do navegador e dão acesso aos elementos HTML por meio do DOM.
+                    </p>
+                    <div class="course-icon">
+                        <img src="images/icone-js.svg" alt="Ícone JavaScript">
+                    </div>
+                </div>
+                <a href="#" class="course-link">Acesse o curso de JavaScript</a>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>

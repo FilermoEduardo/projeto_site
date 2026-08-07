@@ -1,18 +1,122 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #f30086(204, 157, 248);
+    background-color: #9faef7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-main {
-    background-color: rgb(218, 203, 218);
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px #00000020;
+.card-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    padding: 32px 36px 36px 36px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 
+.main-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #2b005e;
+    margin-bottom: 18px;
+}
+
+.logo-wrapper {
+    margin-bottom: 24px;
+}
+
+.logo-img {
+    height: 56px;
+    width: auto;
+}
+
+.course-card {
+    margin-bottom: 26px;
+}
+
+.course-card:last-child {
+    margin-bottom: 0;
+}
+
+.course-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b005e;
+    margin-bottom: 10px;
+}
+
+.course-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.course-description {
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: #1a1a1a;
+    flex: 1;
+}
+
+.course-icon {
+    flex-shrink: 0;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.course-icon img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.course-link {
+    display: inline-block;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #2b005e;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.course-link:hover {
+    color: #0046ff;
+    text-decoration: underline;
+    transform: translateX(3px);
+}
+
+@media (max-width: 500px) {
+    .card-container {
+        padding: 24px 20px;
+    }
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .course-title {
+        font-size: 18px;
+    }
+
+    .course-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .course-icon {
+        margin-bottom: 10px;
+    }
 }
